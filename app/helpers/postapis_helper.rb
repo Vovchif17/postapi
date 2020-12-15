@@ -1,0 +1,2 @@
+module PostapisHelper
+end

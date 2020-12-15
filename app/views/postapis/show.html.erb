@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @postapi.name %>
+</p>
+
+<p>
+  <strong>Message:</strong>
+  <%= @postapi.message %>
+</p>
+
+<%= link_to 'Edit', edit_postapi_path(@postapi) %> |
+<%= link_to 'Back', postapis_path %>

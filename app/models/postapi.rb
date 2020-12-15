@@ -1,0 +1,2 @@
+class Postapi < ApplicationRecord
+end
